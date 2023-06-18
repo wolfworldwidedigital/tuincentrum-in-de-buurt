@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en" data-pgc-set-master>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Pinegrow - TailwindCSS Blocks Template</title>
+        <link href="tailwind_theme/tailwind.css" rel="stylesheet" type="text/css">
+        <script>/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()</script>
+        <meta name="description" content="Pinegrow Web Editor - Directory TailwindCSS Template">
+    </head>
+    <body class="text-gray-500">
+        <header class="bg-opacity-60 bg-white border-b fixed inset-x-0 top-0 w-full z-50"> 
+            <nav class="container flex flex-wrap items-center mx-auto px-4 py-2 lg:py-0" style="background: linear-gradient(314deg, #000000 0%, rgba(15, 155, 15, 0.34) 100%);"> <a href="#" class="font-bold hover:text-gray-700 mr-3 text-gray-900 text-xl">Garden Centers | BE, CA, NL, UK&nbsp;</a>
+                <div class="flex flex-row items-center ml-auto px-2 space-x-2 lg:order-2">
+                    <a href="#" class="bg-gray-700 hidden hover:bg-gray-900 px-6 py-2 rounded-full text-center text-white sm:inline-flex sm:items-center"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.25em" height="1.25em" class="mr-2">
+                            <g>
+                                <path fill="none" d="M0 0h24v24H0z"/>
+                                <path d="M11 11V7h2v4h4v2h-4v4h-2v-4H7v-2h4zm1 11C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16z"/>
+                            </g>
+                        </svg><span>Advertentie plaatsen</span></a>
+                    <a href="#" class="bg-gray-700 hover:bg-gray-900 inline-flex p-2.5 rounded-full text-white" aria-label="search"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.25em" height="1.25em">
+                            <g>
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"></path>
+                            </g>
+                        </svg></a>
+                </div>
+                <button class="bg-gray-700 hover:bg-gray-900 hover:text-white px-3 py-2 rounded text-white lg:hidden" data-name="nav-toggler" data-pg-ia='{"l":[{"name":"NabMenuToggler","trg":"click","a":{"l":[{"t":"^nav|[data-name=nav-menu]","l":[{"t":"set","p":0,"d":0,"l":{"class.remove":"hidden"}}]},{"t":"#gt# span:nth-of-type(1)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":45,"yPercent":300}}]},{"t":"#gt# span:nth-of-type(2)","l":[{"t":"tween","p":0,"d":0.2,"l":{"autoAlpha":0}}]},{"t":"#gt# span:nth-of-type(3)","l":[{"t":"tween","p":0,"d":0.2,"l":{"rotationZ":-45,"yPercent":-300}}]}]},"pdef":"true","trev":"true"}]}'> <span class="block border-b-2 border-current my-1 w-6"></span> <span class="block border-b-2 border-current my-1 w-6"></span> <span class="block border-b-2 border-current my-1 w-6"></span> 
+                </button>
+                <div data-name="nav-menu" class="flex-grow hidden lg:flex lg:items-center lg:w-auto w-full"> 
+                    <div class="flex flex-col lg:flex-row"> <a href="#" class="hover:text-gray-700 px-0 py-2 text-gray-900 lg:px-4 lg:py-6">Blog</a> 
+                    </div>
+                    <div class="flex flex-col ml-auto lg:flex-row"> <a href="#" class="hover:text-gray-700 px-0 py-2 text-gray-900 lg:px-4 lg:py-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.25em" height="1.25em" class="inline-block mr-2">
+                                <g>
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-4.987-3.744A7.966 7.966 0 0 0 12 20c1.97 0 3.773-.712 5.167-1.892A6.979 6.979 0 0 0 12.16 16a6.981 6.981 0 0 0-5.147 2.256zM5.616 16.82A8.975 8.975 0 0 1 12.16 14a8.972 8.972 0 0 1 6.362 2.634 8 8 0 1 0-12.906.187zM12 13a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
+                                </g>
+                            </svg>Login/Sign Up</a> 
+                    </div>                     
+                </div>                 
+            </nav>             
+        </header>
+        <section class="bg-gray-800 pt-12 relative text-white" id="hero-section" data-pg-ia-scene='{"dbg":"true","s":"custom","s_t":"end","s_s":"start","l":[{"a":{"l":[{"t":"$header","l":[{"t":"tween","p":0,"d":0.5,"l":{"--tw-bg-opacity":0.95}}]}]},"p":"scroll"}]}'> 
+            <img src="assets/people-in-botany-garden-2022-02-01-22-36-05-utc.jpg" class="absolute h-full inset-0 object-center object-cover w-full" alt="Hero image" width="1080" height="720"/>
+            <div class="container mx-auto px-4 py-48 relative"> 
+                <div class="-mx-4 flex flex-wrap xl:bg-blend-exclusion xl:font-serif xl:shadow xl:shadow-gray-800">
+                    <div class="px-4 w-full lg:w-6/12 xl:w-5/12"> 
+                        <h1 class="font-normal leading-tight mb-2 text-7xl xl:bg-blend-normal xl:shadow-xl xl:text-gray-300 xl:text-opacity-95"></h1>
+                        <h1 class="font-normal leading-tight mb-2 text-7xl xl:bg-blend-normal xl:shadow-xl xl:text-gray-300 xl:text-opacity-95"></h1><i><h1 class="font-normal leading-tight mb-2 text-7xl xl:bg-blend-normal xl:bg-opacity-50 xl:shadow-xl xl:text-green-300 xl:text-opacity-95"><i style="background-color: rgb(31 41 55 / var(--tw-bg-opacity)); color: rgb(255 255 255 / var(--tw-text-opacity));">Ontdek tuincentra bij jou in de buurt</i></h1></i> 
+                        <form> 
+                            <div class="-mx-1 flex flex-wrap items-center space-y-4 sm:space-y-0">
+                                <div class="px-1 w-full sm:flex-1">
+                                    <input class="appearance-none leading-tight px-5 py-3 rounded-full text-gray-600 text-xl w-full" type="email" required="" placeholder="What are you looking for?">
+                                </div>
+                                <div class="px-1 text-right w-full sm:flex-initial sm:w-auto">
+                                    <button class="bg-green-600 hover:bg-green-700 inline-flex items-center leading-none px-6 py-3 rounded-full text-center text-white text-xl" type="submit">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.25em" height="1.25em" class="mr-1">
+                                            <g>
+                                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                                <path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z"></path>
+                                            </g>
+                                        </svg><span>Zoeken</span>
+                                    </button>
+                                </div>                                 
+                            </div>                             
+                        </form>                         
+                    </div>
+                </div>                 
+            </div>             
+        </section>
+        <section class="-mt-20 pb-4 relative text-center"> 
+            <div class="container mx-auto px-4"> 
+                <div class="bg-white p-4 rounded shadow xl:bg-clip-content xl:bg-opacity-70 xl:bg-white xl:cursor-help xl:drop-shadow-2xl xl:shadow-2xl" style="background-image: linear-gradient(314deg, rgba(0, 0, 0, 255) 11%, rgb(0, 0, 0) 38%);">
+                    <div class="flex flex-wrap"> 
+                        <div class="w-4/12 lg:w-2/12">
+                            <a href="#" class="block hover:bg-gray-50 hover:underline px-4 py-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="inline-block mb-4 text-green-600">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"/>
+                                        <path d="M21 13.242V20h1v2H2v-2h1v-6.758A4.496 4.496 0 0 1 1 9.5c0-.827.224-1.624.633-2.303L4.345 2.5a1 1 0 0 1 .866-.5H18.79a1 1 0 0 1 .866.5l2.702 4.682A4.496 4.496 0 0 1 21 13.242zm-2 .73a4.496 4.496 0 0 1-3.75-1.36A4.496 4.496 0 0 1 12 14.001a4.496 4.496 0 0 1-3.25-1.387A4.496 4.496 0 0 1 5 13.973V20h14v-6.027zM5.789 4L3.356 8.213a2.5 2.5 0 0 0 4.466 2.216c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 0 0 4.644 0c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 1 0 4.457-2.232L18.21 4H5.79z"/>
+                                    </g>
+                                </svg><h2><b><u>Garden Webshops United Kingdom</u></b></h2></a>
+                        </div>
+                        <div class="w-4/12 lg:w-2/12">
+                            <a href="#" class="block hover:bg-gray-50 hover:underline px-4 py-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="inline-block mb-4 text-green-600">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"/>
+                                        <path d="M21 13.242V20h1v2H2v-2h1v-6.758A4.496 4.496 0 0 1 1 9.5c0-.827.224-1.624.633-2.303L4.345 2.5a1 1 0 0 1 .866-.5H18.79a1 1 0 0 1 .866.5l2.702 4.682A4.496 4.496 0 0 1 21 13.242zm-2 .73a4.496 4.496 0 0 1-3.75-1.36A4.496 4.496 0 0 1 12 14.001a4.496 4.496 0 0 1-3.25-1.387A4.496 4.496 0 0 1 5 13.973V20h14v-6.027zM5.789 4L3.356 8.213a2.5 2.5 0 0 0 4.466 2.216c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 0 0 4.644 0c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 1 0 4.457-2.232L18.21 4H5.79z"/>
+                                    </g>
+                                </svg><h2><u><b>Garden Webshops Ireland</b></u></h2></a> 
+                        </div>
+                        <div class="w-4/12 lg:w-2/12">
+                            <a href="#" class="block hover:bg-gray-50 hover:underline px-4 py-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="inline-block mb-4 text-green-600">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"/>
+                                        <path d="M21 13.242V20h1v2H2v-2h1v-6.758A4.496 4.496 0 0 1 1 9.5c0-.827.224-1.624.633-2.303L4.345 2.5a1 1 0 0 1 .866-.5H18.79a1 1 0 0 1 .866.5l2.702 4.682A4.496 4.496 0 0 1 21 13.242zm-2 .73a4.496 4.496 0 0 1-3.75-1.36A4.496 4.496 0 0 1 12 14.001a4.496 4.496 0 0 1-3.25-1.387A4.496 4.496 0 0 1 5 13.973V20h14v-6.027zM5.789 4L3.356 8.213a2.5 2.5 0 0 0 4.466 2.216c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 0 0 4.644 0c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 1 0 4.457-2.232L18.21 4H5.79z"/>
+                                    </g>
+                                </svg><h2><u><b>Garden Centres Canada</b></u></h2></a> 
+                        </div>
+                        <div class="w-4/12 lg:w-2/12">
+                            <a href="#" class="block hover:bg-gray-50 hover:underline px-4 py-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="inline-block mb-4 text-green-600">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"/>
+                                        <path d="M21 13.242V20h1v2H2v-2h1v-6.758A4.496 4.496 0 0 1 1 9.5c0-.827.224-1.624.633-2.303L4.345 2.5a1 1 0 0 1 .866-.5H18.79a1 1 0 0 1 .866.5l2.702 4.682A4.496 4.496 0 0 1 21 13.242zm-2 .73a4.496 4.496 0 0 1-3.75-1.36A4.496 4.496 0 0 1 12 14.001a4.496 4.496 0 0 1-3.25-1.387A4.496 4.496 0 0 1 5 13.973V20h14v-6.027zM5.789 4L3.356 8.213a2.5 2.5 0 0 0 4.466 2.216c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 0 0 4.644 0c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 1 0 4.457-2.232L18.21 4H5.79z"/>
+                                    </g>
+                                </svg><h2><b><u>Garden Centres United Kingdom</u></b></h2></a> 
+                        </div>
+                        <div class="w-4/12 lg:w-2/12">
+                            <a href="#" class="block hover:bg-gray-50 hover:underline px-4 py-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="inline-block mb-4 text-green-600">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"/>
+                                        <path d="M21 13.242V20h1v2H2v-2h1v-6.758A4.496 4.496 0 0 1 1 9.5c0-.827.224-1.624.633-2.303L4.345 2.5a1 1 0 0 1 .866-.5H18.79a1 1 0 0 1 .866.5l2.702 4.682A4.496 4.496 0 0 1 21 13.242zm-2 .73a4.496 4.496 0 0 1-3.75-1.36A4.496 4.496 0 0 1 12 14.001a4.496 4.496 0 0 1-3.25-1.387A4.496 4.496 0 0 1 5 13.973V20h14v-6.027zM5.789 4L3.356 8.213a2.5 2.5 0 0 0 4.466 2.216c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 0 0 4.644 0c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 1 0 4.457-2.232L18.21 4H5.79z"/>
+                                    </g>
+                                </svg><h2><u><b>Tuincentrum leveranciers</b></u></h2></a> 
+                        </div>
+                        <div class="w-4/12 lg:w-2/12">
+                            <a href="#" class="block hover:bg-gray-50 hover:underline px-4 py-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="inline-block mb-4 text-green-600">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"/>
+                                        <path d="M21 13.242V20h1v2H2v-2h1v-6.758A4.496 4.496 0 0 1 1 9.5c0-.827.224-1.624.633-2.303L4.345 2.5a1 1 0 0 1 .866-.5H18.79a1 1 0 0 1 .866.5l2.702 4.682A4.496 4.496 0 0 1 21 13.242zm-2 .73a4.496 4.496 0 0 1-3.75-1.36A4.496 4.496 0 0 1 12 14.001a4.496 4.496 0 0 1-3.25-1.387A4.496 4.496 0 0 1 5 13.973V20h14v-6.027zM5.789 4L3.356 8.213a2.5 2.5 0 0 0 4.466 2.216c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 0 0 4.644 0c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 1 0 4.457-2.232L18.21 4H5.79z"/>
+                                    </g>
+                                </svg><h2><u><b>Tuin blogs Engels</b></u></h2></a> 
+                        </div>
+                        <div class="w-4/12 lg:w-2/12">
+                            <a href="#" class="block hover:bg-gray-50 hover:underline px-4 py-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="inline-block mb-4 text-green-600">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"/>
+                                        <path d="M21 13.242V20h1v2H2v-2h1v-6.758A4.496 4.496 0 0 1 1 9.5c0-.827.224-1.624.633-2.303L4.345 2.5a1 1 0 0 1 .866-.5H18.79a1 1 0 0 1 .866.5l2.702 4.682A4.496 4.496 0 0 1 21 13.242zm-2 .73a4.496 4.496 0 0 1-3.75-1.36A4.496 4.496 0 0 1 12 14.001a4.496 4.496 0 0 1-3.25-1.387A4.496 4.496 0 0 1 5 13.973V20h14v-6.027zM5.789 4L3.356 8.213a2.5 2.5 0 0 0 4.466 2.216c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 0 0 4.644 0c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 1 0 4.457-2.232L18.21 4H5.79z"/>
+                                    </g>
+                                </svg><h2><u><b>Tuin blogs Nederlands</b></u></h2></a> 
+                        </div>
+                        <div class="w-4/12 lg:w-2/12">
+                            <a href="#" class="block hover:bg-gray-50 hover:underline px-4 py-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="inline-block mb-4 text-green-600">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"/>
+                                        <path d="M21 13.242V20h1v2H2v-2h1v-6.758A4.496 4.496 0 0 1 1 9.5c0-.827.224-1.624.633-2.303L4.345 2.5a1 1 0 0 1 .866-.5H18.79a1 1 0 0 1 .866.5l2.702 4.682A4.496 4.496 0 0 1 21 13.242zm-2 .73a4.496 4.496 0 0 1-3.75-1.36A4.496 4.496 0 0 1 12 14.001a4.496 4.496 0 0 1-3.25-1.387A4.496 4.496 0 0 1 5 13.973V20h14v-6.027zM5.789 4L3.356 8.213a2.5 2.5 0 0 0 4.466 2.216c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 0 0 4.644 0c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 1 0 4.457-2.232L18.21 4H5.79z"/>
+                                    </g>
+                                </svg><h2><u><b>Dierenwinkels</b></u></h2></a> 
+                        </div>
+                        <div class="w-4/12 lg:w-2/12">
+                            <a href="#" class="block hover:bg-gray-50 hover:underline px-4 py-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="inline-block mb-4 text-green-600">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"/>
+                                        <path d="M21 13.242V20h1v2H2v-2h1v-6.758A4.496 4.496 0 0 1 1 9.5c0-.827.224-1.624.633-2.303L4.345 2.5a1 1 0 0 1 .866-.5H18.79a1 1 0 0 1 .866.5l2.702 4.682A4.496 4.496 0 0 1 21 13.242zm-2 .73a4.496 4.496 0 0 1-3.75-1.36A4.496 4.496 0 0 1 12 14.001a4.496 4.496 0 0 1-3.25-1.387A4.496 4.496 0 0 1 5 13.973V20h14v-6.027zM5.789 4L3.356 8.213a2.5 2.5 0 0 0 4.466 2.216c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 0 0 4.644 0c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 1 0 4.457-2.232L18.21 4H5.79z"/>
+                                    </g>
+                                </svg><h2><u><b>Webshops Nederland en Belgie</b></u></h2></a> 
+                        </div>
+                        <div class="w-4/12 lg:w-2/12">
+                            <a href="#" class="block hover:bg-gray-50 hover:underline px-4 py-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="inline-block mb-4 text-green-600">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"/>
+                                        <path d="M21 13.242V20h1v2H2v-2h1v-6.758A4.496 4.496 0 0 1 1 9.5c0-.827.224-1.624.633-2.303L4.345 2.5a1 1 0 0 1 .866-.5H18.79a1 1 0 0 1 .866.5l2.702 4.682A4.496 4.496 0 0 1 21 13.242zm-2 .73a4.496 4.496 0 0 1-3.75-1.36A4.496 4.496 0 0 1 12 14.001a4.496 4.496 0 0 1-3.25-1.387A4.496 4.496 0 0 1 5 13.973V20h14v-6.027zM5.789 4L3.356 8.213a2.5 2.5 0 0 0 4.466 2.216c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 0 0 4.644 0c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 1 0 4.457-2.232L18.21 4H5.79z"/>
+                                    </g>
+                                </svg><h2><u><b>Tuincentra Nederland en Belgie</b></u></h2></a> 
+                        </div>
+                        <div class="w-4/12 lg:w-2/12">
+                            <a href="#" class="block hover:bg-gray-50 hover:underline px-4 py-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="2.5rem" height="2.5rem" class="inline-block mb-4 text-green-600">
+                                    <g>
+                                        <path fill="none" d="M0 0h24v24H0z"/>
+                                        <path d="M21 13.242V20h1v2H2v-2h1v-6.758A4.496 4.496 0 0 1 1 9.5c0-.827.224-1.624.633-2.303L4.345 2.5a1 1 0 0 1 .866-.5H18.79a1 1 0 0 1 .866.5l2.702 4.682A4.496 4.496 0 0 1 21 13.242zm-2 .73a4.496 4.496 0 0 1-3.75-1.36A4.496 4.496 0 0 1 12 14.001a4.496 4.496 0 0 1-3.25-1.387A4.496 4.496 0 0 1 5 13.973V20h14v-6.027zM5.789 4L3.356 8.213a2.5 2.5 0 0 0 4.466 2.216c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 0 0 4.644 0c.335-.837 1.52-.837 1.856 0a2.5 2.5 0 1 0 4.457-2.232L18.21 4H5.79z"/>
+                                    </g>
+                                </svg><h2><u><b>Divers</b></u></h2></a> 
+                        </div>                         
+                    </div>
+                </div>                 
+            </div>             
+        </section>
+        <section class="py-12"> 
+            <div class="container mx-auto px-4"> 
+                <div class="mb-6 text-center">
+                    <h2 class="font-medium mb-2 text-4xl text-gray-700">In de kijker gezet</h2>
+                    <p></p>
+                </div>
+                <div class="flex flex-wrap -mx-4  justify-center"> 
+                    <div class="p-4 w-full md:w-6/12 lg:w-4/12"> 
+                        <div class="bg-white border"> <a href="" class="block hover:opacity-75"><img src="assets/young-gardener-woman-choosing-plants-in-garden-cen-2021-08-29-19-24-44-utc.jpg" class="w-full" alt="Location image" width="350" height="240"/></a> 
+                            <div class="pb-4 pt-6 px-6"> 
+                                <div class="flex items-center justify-between py-1"> 
+                                    <div class="py-1">
+                                        <a href="#" class="block hover:text-gray-900 mb-1 text-gray-700"><h3 class="font-medium text-xl">HortiCentre</h3></a>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block mr-1 text-green-600">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M18.364 17.364L12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zM12 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                                                </g>
+                                            </svg>
+                                            <span class="align-middle">New Rd, Overton, Wakefield
+WF4 4RG, UK</span>
+                                        </div>
+                                    </div>
+                                    <a class="bg-green-600 hover:bg-green-700 ml-2 p-2 rounded-full text-white" href="#" aria-label="add to favorite"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" class="d-block">
+                                            <g>
+                                                <path fill="none" d="M0 0H24V24H0z"/>
+                                                <path d="M20.243 4.757c2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236C5.515 3 8.093 2.56 10.261 3.44L6.343 7.358l1.414 1.415L12 4.53l-.013-.014.014.013c2.349-2.109 5.979-2.039 8.242.228z"/>
+                                            </g>
+                                        </svg></a> 
+                                </div>
+                                <hr class="my-4"/>
+                                <p>The most beautiful plants for your home and garden!</p> 
+                            </div>                             
+                        </div>                         
+                    </div>
+                    <div class="p-4 w-full md:w-6/12 lg:w-4/12"> 
+                        <div class="bg-white border"> <a href="" class="block hover:opacity-75"><img src="assets/gardener-woman-working-in-garden-center-2021-08-30-00-08-19-utc.jpg" class="w-full" alt="Location image" width="350" height="240"/></a> 
+                            <div class="pb-4 pt-6 px-6"> 
+                                <div class="flex items-center justify-between py-1"> 
+                                    <div class="py-1">
+                                        <a href="#" class="block hover:text-gray-900 mb-1 text-gray-700"><h3 class="font-medium text-xl">Holiday Inn Rotorua</h3></a>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block mr-1 text-red-600">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M18.364 17.364L12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zM12 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                                                </g>
+                                            </svg>
+                                            <span class="align-middle">Rotorua, New Zealand</span>
+                                        </div>
+                                    </div>
+                                    <a class="bg-green-600 hover:bg-green-700 ml-2 p-2 rounded-full text-white" href="#" aria-label="add to favorite"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" class="d-block">
+                                            <g>
+                                                <path fill="none" d="M0 0H24V24H0z"/>
+                                                <path d="M20.243 4.757c2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236C5.515 3 8.093 2.56 10.261 3.44L6.343 7.358l1.414 1.415L12 4.53l-.013-.014.014.013c2.349-2.109 5.979-2.039 8.242.228z"/>
+                                            </g>
+                                        </svg></a> 
+                                </div>
+                                <hr class="my-4"/>
+                                <div class="flex items-center justify-between py-1"> 
+                                    <div class="py-1">
+                                        <span class="mr-1 text-red-600"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 15.968l4.247 2.377-.949-4.773 3.573-3.305-4.833-.573L12 5.275v10.693zm0 2.292l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928L12 18.26z"/>
+                                                </g>
+                                            </svg></span>
+                                        <span class="align-middle">432 reviews</span>
+                                    </div>
+                                    <span class="font-bold py-1"><span>$</span><span>$</span><span class="opacity-50">$</span></span> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>
+                    <div class="p-4 w-full md:w-6/12 lg:w-4/12"> 
+                        <div class="bg-white border"> <a href="" class="block hover:opacity-75"><img src="assets/professional-florist-working-in-the-garden-center-2023-01-31-03-25-07-utc.jpg" class="w-full" alt="Location image" width="350" height="240"/></a> 
+                            <div class="pb-4 pt-6 px-6"> 
+                                <div class="flex items-center justify-between py-1"> 
+                                    <div class="py-1">
+                                        <a href="#" class="block hover:text-gray-900 mb-1 text-gray-700"><h3 class="font-medium text-xl">Annapurna Base Camp</h3></a>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block mr-1 text-red-600">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M18.364 17.364L12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zM12 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                                                </g>
+                                            </svg>
+                                            <span class="align-middle">Ghandruk, Nepal</span>
+                                        </div>
+                                    </div>
+                                    <a class="bg-green-600 hover:bg-green-700 ml-2 p-2 rounded-full text-white" href="#" aria-label="add to favorite"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" class="d-block">
+                                            <g>
+                                                <path fill="none" d="M0 0H24V24H0z"/>
+                                                <path d="M20.243 4.757c2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236C5.515 3 8.093 2.56 10.261 3.44L6.343 7.358l1.414 1.415L12 4.53l-.013-.014.014.013c2.349-2.109 5.979-2.039 8.242.228z"/>
+                                            </g>
+                                        </svg></a> 
+                                </div>
+                                <hr class="my-4"/>
+                                <div class="flex items-center justify-between py-1"> 
+                                    <div class="py-1">
+                                        <span class="mr-1 text-red-600"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 15.968l4.247 2.377-.949-4.773 3.573-3.305-4.833-.573L12 5.275v10.693zm0 2.292l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928L12 18.26z"/>
+                                                </g>
+                                            </svg></span>
+                                        <span class="align-middle">432 reviews</span>
+                                    </div>
+                                    <span class="font-bold py-1"><span>$</span><span class="opacity-50">$</span><span class="opacity-50">$</span></span> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>
+                    <div class="p-4 w-full md:w-6/12 lg:w-4/12"> 
+                        <div class="bg-white border"> <a href="" class="block hover:opacity-75"><img src="assets/young-woman-gardener-in-glasses-and-apron-with-dig-2022-04-06-04-51-07-utc.jpg" class="w-full" alt="Location image" width="350" height="240"/></a> 
+                            <div class="pb-4 pt-6 px-6"> 
+                                <div class="flex items-center justify-between py-1"> 
+                                    <div class="py-1">
+                                        <a href="#" class="block hover:text-gray-900 mb-1 text-gray-700"><h3 class="font-medium text-xl">The Whitehall Hotel</h3></a>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block mr-1 text-red-600">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M18.364 17.364L12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zM12 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                                                </g>
+                                            </svg>
+                                            <span class="align-middle">East Delaware, Chicago</span>
+                                        </div>
+                                    </div>
+                                    <a class="bg-green-600 hover:bg-green-700 ml-2 p-2 rounded-full text-white" href="#" aria-label="add to favorite"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" class="d-block">
+                                            <g>
+                                                <path fill="none" d="M0 0H24V24H0z"/>
+                                                <path d="M20.243 4.757c2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236C5.515 3 8.093 2.56 10.261 3.44L6.343 7.358l1.414 1.415L12 4.53l-.013-.014.014.013c2.349-2.109 5.979-2.039 8.242.228z"/>
+                                            </g>
+                                        </svg></a> 
+                                </div>
+                                <hr class="my-4"/>
+                                <div class="flex items-center justify-between py-1"> 
+                                    <div class="py-1">
+                                        <span class="mr-1 text-red-600"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 15.968l4.247 2.377-.949-4.773 3.573-3.305-4.833-.573L12 5.275v10.693zm0 2.292l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928L12 18.26z"/>
+                                                </g>
+                                            </svg></span>
+                                        <span class="align-middle">432 reviews</span>
+                                    </div>
+                                    <span class="font-bold py-1"><span>$</span><span>$</span><span>$</span></span> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>
+                    <div class="p-4 w-full md:w-6/12 lg:w-4/12"> 
+                        <div class="bg-white border"> <a href="" class="block hover:opacity-75"><img src="assets/young-woman-during-shopping-at-a-garden-center-2021-08-29-19-24-49-utc.jpg" class="w-full" alt="Location image" width="350" height="240"/></a> 
+                            <div class="pb-4 pt-6 px-6"> 
+                                <div class="flex items-center justify-between py-1"> 
+                                    <div class="py-1">
+                                        <a href="#" class="block hover:text-gray-900 mb-1 text-gray-700"><h3 class="font-medium text-xl">Tanah Lot Temple</h3></a>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block mr-1 text-red-600">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M18.364 17.364L12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zM12 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                                                </g>
+                                            </svg>
+                                            <span class="align-middle">Beraban, Kediri, Bali</span>
+                                        </div>
+                                    </div>
+                                    <a class="bg-green-600 hover:bg-green-700 ml-2 p-2 rounded-full text-white" href="#" aria-label="add to favorite"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" class="d-block">
+                                            <g>
+                                                <path fill="none" d="M0 0H24V24H0z"/>
+                                                <path d="M20.243 4.757c2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236C5.515 3 8.093 2.56 10.261 3.44L6.343 7.358l1.414 1.415L12 4.53l-.013-.014.014.013c2.349-2.109 5.979-2.039 8.242.228z"/>
+                                            </g>
+                                        </svg></a> 
+                                </div>
+                                <hr class="my-4"/>
+                                <div class="flex items-center justify-between py-1"> 
+                                    <div class="py-1">
+                                        <span class="mr-1 text-red-600"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 15.968l4.247 2.377-.949-4.773 3.573-3.305-4.833-.573L12 5.275v10.693zm0 2.292l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928L12 18.26z"/>
+                                                </g>
+                                            </svg></span>
+                                        <span class="align-middle">432 reviews</span>
+                                    </div>
+                                    <span class="font-bold py-1"><span>$</span><span>$</span><span class="opacity-50">$</span></span> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>
+                    <div class="p-4 w-full md:w-6/12 lg:w-4/12"> 
+                        <div class="bg-white border"> <a href="" class="block hover:opacity-75"><img src="assets/young-man-gardener-in-glasses-and-apron-with-digit-2022-04-06-04-51-07-utc.jpg" class="w-full" alt="Location image" width="350" height="240"/></a> 
+                            <div class="pb-4 pt-6 px-6"> 
+                                <div class="flex items-center justify-between py-1"> 
+                                    <div class="py-1">
+                                        <a href="#" class="block hover:text-gray-900 mb-1 text-gray-700"><h3 class="font-medium text-xl">Hotel Abbazia</h3></a>
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block mr-1 text-red-600">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M18.364 17.364L12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zM12 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+                                                </g>
+                                            </svg>
+                                            <span class="align-middle">Venice, Italy</span>
+                                        </div>
+                                    </div>
+                                    <a class="bg-green-600 hover:bg-green-700 ml-2 p-2 rounded-full text-white" href="#" aria-label="add to favorite"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" class="d-block">
+                                            <g>
+                                                <path fill="none" d="M0 0H24V24H0z"/>
+                                                <path d="M20.243 4.757c2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236C5.515 3 8.093 2.56 10.261 3.44L6.343 7.358l1.414 1.415L12 4.53l-.013-.014.014.013c2.349-2.109 5.979-2.039 8.242.228z"/>
+                                            </g>
+                                        </svg></a> 
+                                </div>
+                                <hr class="my-4"/>
+                                <div class="flex items-center justify-between py-1"> 
+                                    <div class="py-1">
+                                        <span class="mr-1 text-red-600"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z"/>
+                                                </g>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1.125em" height="1.125em" class="inline-block">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                                    <path d="M12 15.968l4.247 2.377-.949-4.773 3.573-3.305-4.833-.573L12 5.275v10.693zm0 2.292l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928L12 18.26z"/>
+                                                </g>
+                                            </svg></span>
+                                        <span class="align-middle">432 reviews</span>
+                                    </div>
+                                    <span class="font-bold py-1"><span>$</span><span>$</span><span class="opacity-50">$</span></span> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>
+                <div class="py-4 text-center">
+                    <a href="#" class="bg-green-600 hover:bg-green-700 inline-block px-6 py-2 rounded-full text-center text-white">View More</a>
+                </div>                 
+            </div>             
+        </section>
+        <div class="container mx-auto px-4 py-6">
+            <hr/>
+        </div>
+        <TABLE BORDER="0" ALIGN="CENTER" WIDTH="930" CELLPADDING="">
+            <TR>
+                <TD VALIGN="top" ALIGN="CENTER"><BR> <BR><BR><BR>
+                    <TABLE BACKGROUND="" ALIGN="CENTER" BORDER="1" BORDERCOLORDARK="#FFC796" BORDERCOLORLIGHT="#E88800" WIDTH="225" BGCOLOR="#FFC796" CELLPADDING="0" CELLSPACING="">
+                        <TR>
+                            <TD BGCOLOR="#E88800"> 
+                                <TABLE WIDTH="225" CELLSPACING="0" CELLPADDING="">
+                                    <TR ID="rubr">
+                                        <TD>&nbsp;<FONT COLOR="#000000">Divers</FONT></TD>
+                                        <TD ALIGN="right"></TD>
+                                    </TR>
+                                </TABLE>                                 
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <div style='padding:5px;'>Vind de beste tuintips en advies uit onze verzameling artikelen geschreven door professionele tuinders. Laat u inspireren met ideeën voor bloembedden, plantenbakken, verhoogde bedden en meer. Ontdek vandaag nog de perfecte planten voor uw tuin!
+</div>
+                                <HR style='
+display: block;
+border: none;
+height: 2px;
+background:#E88800;
+background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 90, from(#E88800), to(#FFC796));
+'><BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.dietistmandybreure.nl/leververvetting" TITLE='https://www.dietistmandybreure.nl/leververvetting'>dietistmandybreure.nl</A><BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.kunstkerstboompunt.nl/" TITLE='https://www.kunstkerstboompunt.nl/'>kunstkerstboompunt.nl</A><BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.kerstoutletonline.nl/" TITLE='https://www.kerstoutletonline.nl/'>kerstoutletonline.nl</A><BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.mrchristmasnl.nl/" TITLE='https://www.mrchristmasnl.nl/'>mrchristmasnl.nl</A><BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.onlinekerstshop.nl/" TITLE='https://www.onlinekerstshop.nl/'>onlinekerstshop.nl</A><BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.tuingereedschapshop.nl/" TITLE='https://www.tuingereedschapshop.nl/'>tuingereedschapshop.nl</A><BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.delekkerstebbq.nl/" TITLE='https://www.delekkerstebbq.nl/'>BBQ vergelijken</A><BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.huisdierkoopjes.nl/" TITLE='https://www.huisdierkoopjes.nl/'>Huisdierkoopjes</A><BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.onlinetuinmeubel.nl/" TITLE='https://www.onlinetuinmeubel.nl/'>Online Tuinmeubels</A><BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.tuinmeubelsvoordeel.nl/" TITLE='https://www.tuinmeubelsvoordeel.nl/'>Tuinmeubels met voordeel</A><BR>
+                            </TD>
+                        </TR>
+                    </TABLE><BR><BR>
+                </TD>
+                <TD VALIGN="top" WIDTH="225">
+                    <TABLE BACKGROUND="" ALIGN="CENTER" BORDER="1" BORDERCOLORDARK="#FFC796" BORDERCOLORLIGHT="#E88800" WIDTH="225" BGCOLOR="#FFC796" CELLPADDING="0" CELLSPACING="">
+                        <TR>
+                            <TD BGCOLOR="#E88800"> 
+                                <TABLE WIDTH="225" CELLSPACING="0" CELLPADDING="">
+                                    <TR ID="rubr">
+                                        <TD>&nbsp;<FONT COLOR="#000000">Garden Webshops United Kingdom</FONT></TD>
+                                        <TD ALIGN="right"></TD>
+                                    </TR>
+                                </TABLE>                                 
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <div style='padding:5px;'>Find everything you need to create and maintain a beautiful garden at Garden Webshops United Kingdom. We offer a wide selection of high quality gardening tools, plants, seeds, and more - all in one convenient place. Start shopping now.</div>
+                                <HR style='
+display: block;
+border: none;
+height: 2px;
+background:#E88800;
+background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 90, from(#E88800), to(#FFC796));
+'>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://horticentre.co.uk" TITLE='http://horticentre.co.uk'>horticentre.co.uk</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://provendernurseries.co.uk" TITLE='http://provendernurseries.co.uk'>provendernurseries.co.uk</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://bomagardencentre.co.uk" TITLE='http://bomagardencentre.co.uk'>bomagardencentre.co.uk</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://barkukonline.co.uk" TITLE='http://barkukonline.co.uk'>barkukonline.co.uk</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.gardenbuyer.co.uk/" TITLE='https://www.gardenbuyer.co.uk/'>Garden centre price comparison</A>
+                                <BR>
+                            </TD>
+                        </TR>
+                    </TABLE>
+                    <BR>
+                    <TABLE BACKGROUND="" ALIGN="CENTER" BORDER="1" BORDERCOLORDARK="#FFC796" BORDERCOLORLIGHT="#E88800" WIDTH="225" BGCOLOR="#FFC796" CELLPADDING="0" CELLSPACING="">
+                        <TR>
+                            <TD BGCOLOR="#E88800"> 
+                                <TABLE WIDTH="225" CELLSPACING="0" CELLPADDING="">
+                                    <TR ID="rubr">
+                                        <TD>&nbsp;<FONT COLOR="#000000">Garden Centres United Kingdom</FONT></TD>
+                                        <TD ALIGN="right"></TD>
+                                    </TR>
+                                </TABLE>                                 
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <div style='padding:5px;'>Garden Centres United Kingdom is the premier destination for everything related to gardening. From plants and shrubs, to tools and advice, we have everything you need to get your garden looking its best. Visit us today for all your gardening needs.</div>
+                                <HR style='
+display: block;
+border: none;
+height: 2px;
+background:#E88800;
+background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 90, from(#E88800), to(#FFC796));
+'>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://elmwoodgardencentre.co.uk" TITLE='http://elmwoodgardencentre.co.uk'>elmwoodgardencentre.co.uk</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://knightsgardencentres.com" TITLE='http://knightsgardencentres.com'>knightsgardencentres.com</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://merryhatton.co.uk" TITLE='http://merryhatton.co.uk'>merryhatton.co.uk</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://ripleynurseries.co.uk" TITLE='http://ripleynurseries.co.uk'>ripleynurseries.co.uk</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://radwaybridgegardencentre.com" TITLE='http://radwaybridgegardencentre.com'>radwaybridgegardencentre.com</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://thirskgardencentre.co.uk" TITLE='http://thirskgardencentre.co.uk'>thirskgardencentre.co.uk</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://wellandvale.co.uk" TITLE='http://wellandvale.co.uk'>wellandvale.co.uk</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://slemishlandscapecentre.com" TITLE='http://slemishlandscapecentre.com'>slemishlandscapecentre.com</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://trioscape.co.uk" TITLE='http://trioscape.co.uk'>trioscape.co.uk</A>
+                                <BR>
+                            </TD>
+                        </TR>
+                    </TABLE>
+                    <BR>
+                    <TABLE BACKGROUND="" ALIGN="CENTER" BORDER="1" BORDERCOLORDARK="#FFC796" BORDERCOLORLIGHT="#E88800" WIDTH="225" BGCOLOR="#FFC796" CELLPADDING="0" CELLSPACING="">
+                        <TR>
+                            <TD BGCOLOR="#E88800"> 
+                                <TABLE WIDTH="225" CELLSPACING="0" CELLPADDING="">
+                                    <TR ID="rubr">
+                                        <TD>&nbsp;<FONT COLOR="#000000">Tuin blogs Engels</FONT></TD>
+                                        <TD ALIGN="right"></TD>
+                                    </TR>
+                                </TABLE>                                 
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <div style='padding:5px;'>Laat u inspireren en leer hoe u de tuin van uw dromen kunt creëren met onze verzameling blogposts van gepassioneerde tuiniers over de hele wereld. Lees over landschapsontwerp, kweektechnieken, plantenverzorging en meer - allemaal in het Engels. Ontdek vandaag nog onze tuinblogs!</div>
+                                <HR style='
+display: block;
+border: none;
+height: 2px;
+background:#E88800;
+background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 90, from(#E88800), to(#FFC796));
+'>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://onlinegardeningcentre.co.uk" TITLE='http://onlinegardeningcentre.co.uk'>onlinegardeningcentre.co.uk</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://city-garden.eu" TITLE='http://city-garden.eu'>city-garden.eu</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://gardenexpert.eu" TITLE='http://gardenexpert.eu'>gardenexpert.eu</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://gardeningagency.co.uk" TITLE='http://gardeningagency.co.uk'>gardeningagency.co.uk</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://gardenretail.co.uk" TITLE='http://gardenretail.co.uk'>gardenretail.co.uk</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://lifeplanters.eu" TITLE='http://lifeplanters.eu'>lifeplanters.eu</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://expertgardening.co.uk" TITLE='http://expertgardening.co.uk'>expertgardening.co.uk</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://gardenclublistings.co.uk" TITLE='http://gardenclublistings.co.uk'>gardenclublistings.co.uk</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://marchisio.eu" TITLE='http://marchisio.eu'>marchisio.eu</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://royalgardens.eu" TITLE='http://royalgardens.eu'>royalgardens.eu</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://gardencentreguide.co.uk" TITLE='http://gardencentreguide.co.uk'>gardencentreguide.co.uk</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://designgarden.eu" TITLE='http://designgarden.eu'>designgarden.eu</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.gardenstreet.eu/" TITLE='https://www.gardenstreet.eu/'>Tips For Gardening</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://goodgardn.co.uk" TITLE='http://goodgardn.co.uk'>goodgardn.co.uk</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://gardencenterguide.com" TITLE='http://gardencenterguide.com'>gardencenterguide.com</A>
+                                <BR>
+                            </TD>
+                        </TR>
+                    </TABLE>
+                    <BR>
+                    <TABLE BACKGROUND="" ALIGN="CENTER" BORDER="1" BORDERCOLORDARK="#FFC796" BORDERCOLORLIGHT="#E88800" WIDTH="225" BGCOLOR="#FFC796" CELLPADDING="0" CELLSPACING="">
+                        <TR>
+                            <TD BGCOLOR="#E88800"> 
+                                <TABLE WIDTH="225" CELLSPACING="0" CELLPADDING="">
+                                    <TR ID="rubr">
+                                        <TD>&nbsp;<FONT COLOR="#000000">Webshops Nederland en Belgie</FONT></TD>
+                                        <TD ALIGN="right"></TD>
+                                    </TR>
+                                </TABLE>                                 
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <div style='padding:5px;'>Ontdek de leukste webshops van Nederland en België. Ons platform helpt je bij het vinden van kwaliteitsproducten tegen scherpe prijzen uit een brede selectie van webshops. Winkel met vertrouwen in de wetenschap dat onze beoordelingen eerlijk, onbevooroordeeld en altijd up-to-date zijn.</div>
+                                <HR style='
+display: block;
+border: none;
+height: 2px;
+background:#E88800;
+background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 90, from(#E88800), to(#FFC796));
+'>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.bbqkopen.nl/" TITLE='https://www.bbqkopen.nl/'>bbqkopen.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.detuinwinkelonline.nl" TITLE='https://www.detuinwinkelonline.nl'>detuinwinkelonline.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.eurofleur.nl" TITLE='https://www.eurofleur.nl'>eurofleur.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.gardencenterwemmel.be" TITLE='https://www.gardencenterwemmel.be'>gardencenterwemmel.be</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.toptuincentrum.nl" TITLE='https://www.toptuincentrum.nl'>toptuincentrum.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.tuincenter-vincent.be" TITLE='https://www.tuincenter-vincent.be'>tuincenter-vincent.be</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.tuincentrumoutlet.com" TITLE='https://www.tuincentrumoutlet.com'>tuincentrumoutlet.com</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.tuincollectie.nl/" TITLE='https://www.tuincollectie.nl/'>tuincollectie.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.tuinmeubels.nl/" TITLE='https://www.tuinmeubels.nl/'>tuinmeubels.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.overkappingoutlet.com/" TITLE='https://www.overkappingoutlet.com/'>overkappingoutlet.com</A>
+                                <BR>
+                            </TD>
+                        </TR>
+                    </TABLE>
+                    <BR>
+                    <TABLE BACKGROUND="" ALIGN="CENTER" BORDER="1" BORDERCOLORDARK="#FFC796" BORDERCOLORLIGHT="#E88800" WIDTH="225" BGCOLOR="#FFC796" CELLPADDING="1" CELLSPACING="">
+                        <TR>
+                            <TD BGCOLOR="#E88800">
+                                <TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="">
+                                    <TR ID="rubr">
+                                        <TD ALIGN="right"></TD>
+                                    </TR>
+                                </TABLE>
+                            </TD>
+                        </TR>
+                        <TR>
+</TR>
+                    </TABLE>
+                    <BR>
+                </TD>
+                <TD VALIGN="top" WIDTH="225">
+                    <BR>
+                    <TABLE BACKGROUND="" ALIGN="CENTER" BORDER="1" BORDERCOLORDARK="#FFC796" BORDERCOLORLIGHT="#E88800" WIDTH="225" BGCOLOR="#FFC796" CELLPADDING="0" CELLSPACING="">
+                        <TR>
+                            <TD BGCOLOR="#E88800"> 
+                                <TABLE WIDTH="225" CELLSPACING="0" CELLPADDING="">
+                                    <TR ID="rubr">
+                                        <TD>&nbsp;<FONT COLOR="#000000">Garden Webshops Ireland</FONT></TD>
+                                        <TD ALIGN="right"></TD>
+                                    </TR>
+                                </TABLE>                                 
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <div style='padding:5px;'>Shop our extensive selection of quality garden products from Garden Webshops Ireland. With top brands, unbeatable prices, and free delivery on orders over €50, you'll find everything you need to make your garden beautiful. Start shopping now.</div>
+                                <HR style='
+display: block;
+border: none;
+height: 2px;
+background:#E88800;
+background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 90, from(#E88800), to(#FFC796));
+'>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://jonesgc.com" TITLE='http://jonesgc.com'>jonesgc.com</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://hanleysofcork.com" TITLE='http://hanleysofcork.com'>hanleysofcork.com</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://fernhill.ie" TITLE='http://fernhill.ie'>fernhill.ie</A>
+                                <BR>
+                            </TD>
+                        </TR>
+                    </TABLE>
+                    <BR>
+                    <TABLE BACKGROUND="" ALIGN="CENTER" BORDER="1" BORDERCOLORDARK="#FFC796" BORDERCOLORLIGHT="#E88800" WIDTH="225" BGCOLOR="#FFC796" CELLPADDING="0" CELLSPACING="">
+                        <TR>
+                            <TD BGCOLOR="#E88800"> 
+                                <TABLE WIDTH="225" CELLSPACING="0" CELLPADDING="">
+                                    <TR ID="rubr">
+                                        <TD>&nbsp;<FONT COLOR="#000000">Dierenwinkels</FONT></TD>
+                                        <TD ALIGN="right"></TD>
+                                    </TR>
+                                </TABLE>                                 
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <div style='padding:5px;'>Vind al uw huisdierbenodigdheden op één plek in onze dierenwinkels. We hebben een grote selectie producten om je harige vrienden gelukkig en gezond te houden. Koop onze grote verscheidenheid aan voedsel, traktaties, <a title="speelgoed" href="http://www.speelgoed-voordeel.nl">speelgoed</a> en accessoires voor alle soorten huisdieren op onverslaanbaar
+                                </div>
+                                <HR style='
+display: block;
+border: none;
+height: 2px;
+background:#E88800;
+background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 90, from(#E88800), to(#FFC796));
+'>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://dierenartsboschhoven.nl" TITLE='http://dierenartsboschhoven.nl'>dierenartsboschhoven.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://dierenkliniekcoppelmans.nl" TITLE='http://dierenkliniekcoppelmans.nl'>dierenkliniekcoppelmans.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.petfooddiscount.nl" TITLE='https://www.petfooddiscount.nl'>petfooddiscount.nl</A>
+                                <BR>
+                            </TD>
+                        </TR>
+                    </TABLE>
+                    <BR>
+                </TD>
+                <TABLE BACKGROUND="" ALIGN="CENTER" BORDER="1" BORDERCOLORDARK="#FFC796" BORDERCOLORLIGHT="#E88800" WIDTH="225" BGCOLOR="#FFC796" CELLPADDING="0" CELLSPACING="">
+                    <TR>
+                        <TD BGCOLOR="#E88800"> 
+                            <TABLE WIDTH="225" CELLSPACING="0" CELLPADDING="">
+                                <TR ID="rubr">
+                                    <TD>&nbsp;<FONT COLOR="#000000">Webshops Nederland en Belgie</FONT></TD>
+                                    <TD ALIGN="right"></TD>
+                                </TR>
+                            </TABLE>                             
+                        </TD>
+                    </TR>
+                    <TR>
+                        <TD>
+                            <div style='padding:5px;'>Ontdek de leukste webshops van Nederland en België. Ons platform helpt je bij het vinden van kwaliteitsproducten tegen scherpe prijzen uit een brede selectie van webshops. Winkel met vertrouwen in de wetenschap dat onze beoordelingen eerlijk, onbevooroordeeld en altijd up-to-date zijn.</div>
+                            <HR style='
+display: block;
+border: none;
+height: 2px;
+background:#E88800;
+background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 90, from(#E88800), to(#FFC796));
+'><BR>
+                            <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                             <A rel="dofollow" HREF="https://www.bbqkopen.nl/" TITLE='https://www.bbqkopen.nl/'>bbqkopen.nl</A><BR>
+                            <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                             <A rel="dofollow" HREF="https://www.detuinwinkelonline.nl" TITLE='https://www.detuinwinkelonline.nl'>detuinwinkelonline.nl</A><BR>
+                            <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                             <A rel="dofollow" HREF="https://www.eurofleur.nl" TITLE='https://www.eurofleur.nl'>eurofleur.nl</A><BR>
+                            <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                             <A rel="dofollow" HREF="https://www.gardencenterwemmel.be" TITLE='https://www.gardencenterwemmel.be'>gardencenterwemmel.be</A><BR>
+                            <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                             <A rel="dofollow" HREF="https://www.toptuincentrum.nl" TITLE='https://www.toptuincentrum.nl'>toptuincentrum.nl</A><BR>
+                            <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                             <A rel="dofollow" HREF="https://www.tuincenter-vincent.be" TITLE='https://www.tuincenter-vincent.be'>tuincenter-vincent.be</A><BR>
+                            <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                             <A rel="dofollow" HREF="https://www.tuincentrumoutlet.com" TITLE='https://www.tuincentrumoutlet.com'>tuincentrumoutlet.com</A><BR>
+                            <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                             <A rel="dofollow" HREF="https://www.tuincollectie.nl/" TITLE='https://www.tuincollectie.nl/'>tuincollectie.nl</A><BR>
+                            <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                             <A rel="dofollow" HREF="https://www.tuinmeubels.nl/" TITLE='https://www.tuinmeubels.nl/'>tuinmeubels.nl</A><BR>
+                            <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                             <A rel="dofollow" HREF="https://www.overkappingoutlet.com/" TITLE='https://www.overkappingoutlet.com/'>overkappingoutlet.com</A><BR>
+                        </TD>
+                    </TR>
+                </TABLE>
+                <TD VALIGN="top" WIDTH="225">
+                    <TABLE BACKGROUND="" ALIGN="CENTER" BORDER="1" BORDERCOLORDARK="#FFC796" BORDERCOLORLIGHT="#E88800" WIDTH="225" BGCOLOR="#FFC796" CELLPADDING="0" CELLSPACING="">
+                        <TR>
+                            <TD BGCOLOR="#E88800"> 
+                                <TABLE WIDTH="225" CELLSPACING="0" CELLPADDING="">
+                                    <TR ID="rubr">
+                                        <TD>&nbsp;<FONT COLOR="#000000">Garden Centres Canada</FONT></TD>
+                                        <TD ALIGN="right"></TD>
+                                    </TR>
+                                </TABLE>                                 
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <div style='padding:5px;'>At Garden Centres Canada, we offer a wide selection of plants, gardening supplies, and unique gifts for the garden enthusiast. We are committed to providing quality products and excellent customer service to help you create your dream outdoor space. Come explore our selection today</div>
+                                <HR style='
+display: block;
+border: none;
+height: 2px;
+background:#E88800;
+background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 90, from(#E88800), to(#FFC796));
+'>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://gardenworks.ca" TITLE='http://gardenworks.ca'>gardenworks.ca</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://lacostegardencentre.com" TITLE='http://lacostegardencentre.com'>lacostegardencentre.com</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://gardenretreat.ca" TITLE='http://gardenretreat.ca'>gardenretreat.ca</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://oxfordinstashade.com" TITLE='http://oxfordinstashade.com'>oxfordinstashade.com</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://littletreegardenmarket.ca" TITLE='http://littletreegardenmarket.ca'>littletreegardenmarket.ca</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://greyhavengardens.com" TITLE='http://greyhavengardens.com'>greyhavengardens.com</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://buckerfields.ca" TITLE='http://buckerfields.ca'>buckerfields.ca</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://waltergreenhouse.ca" TITLE='http://waltergreenhouse.ca'>waltergreenhouse.ca</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="http://tripletreenurseryland.com" TITLE='http://tripletreenurseryland.com'>tripletreenurseryland.com</A>
+                                <BR>
+                            </TD>
+                        </TR>
+                    </TABLE>
+                    <BR>
+                    <TABLE BACKGROUND="" ALIGN="CENTER" BORDER="1" BORDERCOLORDARK="#FFC796" BORDERCOLORLIGHT="#E88800" WIDTH="225" BGCOLOR="#FFC796" CELLPADDING="0" CELLSPACING="">
+                        <TR>
+                            <TD BGCOLOR="#E88800"> 
+                                <TABLE WIDTH="225" CELLSPACING="0" CELLPADDING="">
+                                    <TR ID="rubr">
+                                        <TD>&nbsp;<FONT COLOR="#000000">Tuin blogs Nederlands</FONT></TD>
+                                        <TD ALIGN="right"></TD>
+                                    </TR>
+                                </TABLE>                                 
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>
+                                <div style='padding:5px;'>Laat je inspireren om je eigen Hollandse tuin aan te leggen met de nieuwste tuinblogs van Garden Dutch. Leer tips en trucs van ervaren tuiniers, ontdek welke planten het beste staan in de Nederlandse tuin en krijg het beste advies over het inrichten van een prachtige buitenruimte.</div>
+                                <HR style='
+display: block;
+border: none;
+height: 2px;
+background:#E88800;
+background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 90, from(#E88800), to(#FFC796));
+'>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.hetgroenenetwerk.nl/" TITLE='https://www.hetgroenenetwerk.nl/'>hetgroenenetwerk.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.homeandgardendreams.nl/" TITLE='https://www.homeandgardendreams.nl/'>homeandgardendreams.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.homeandgardenxl.nl/" TITLE='https://www.homeandgardenxl.nl/'>homeandgardenxl.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.palmnet.nl/" TITLE='https://www.palmnet.nl/'>palmnet.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.robtuinontwerp.nl/" TITLE='https://www.robtuinontwerp.nl/'>robtuinontwerp.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.tuinartikelenwinkels.nl/" TITLE='https://www.tuinartikelenwinkels.nl/'>tuinartikelenwinkels.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.tuinierenwebwinkel.nl/" TITLE='https://www.tuinierenwebwinkel.nl/'>tuinierenwebwinkel.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.tuinieronline.nl/" TITLE='https://www.tuinieronline.nl/'>tuinieronline.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.tuinmeubelen-online.nl/" TITLE='https://www.tuinmeubelen-online.nl/'>tuinmeubelen-online.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.carice.eu/" TITLE='https://www.carice.eu/'>Carice huis en tuin</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.alleshuisentuin.nl/" TITLE='https://www.alleshuisentuin.nl/'>alleshuisentuin.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.bloemschikmateriaal.eu/" TITLE='https://www.bloemschikmateriaal.eu/'>bloemschikmateriaal.eu</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.buiteninjebuurt.nl/" TITLE='https://www.buiteninjebuurt.nl/'>buiteninjebuurt.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.dekroononline.be/" TITLE='https://www.dekroononline.be/'>dekroononline.be</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.depuretuin.nl/" TITLE='https://www.depuretuin.nl/'>depuretuin.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.detuinkampioen.nl/" TITLE='https://www.detuinkampioen.nl/'>detuinkampioen.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.devrolijketuinder.nl/" TITLE='https://www.devrolijketuinder.nl/'>devrolijketuinder.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.dutchgarden.eu/" TITLE='https://www.dutchgarden.eu/'>dutchgarden.eu</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.good-living.nl/" TITLE='https://www.good-living.nl/'>good-living.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.green-smile.nl/" TITLE='https://www.green-smile.nl/'>green-smile.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.tuincentrumoverzicht.be/" TITLE='https://www.tuincentrumoverzicht.be/'>tuincentrumoverzicht.be</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.tuincentrumoverzicht.nl/" TITLE='https://www.tuincentrumoverzicht.nl/'>tuincentrumoverzicht.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.goodgardn.nl/" TITLE='https://www.goodgardn.nl/'>goodgardn.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.leefinjetuin.nl/" TITLE='https://www.leefinjetuin.nl/'>leefinjetuin.nl</A>
+                                <BR>
+                                <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                                 <A rel="dofollow" HREF="https://www.100procentgroen.eu/" TITLE='https://www.100procentgroen.eu/'>100procentgroen.eu</A>
+                                <BR>
+                            </TD>
+                        </TR>
+                    </TABLE>
+                    <BR>
+                    <BR>
+                </TD>
+            </TR>
+        </TABLE>
+        <TABLE BACKGROUND="" ALIGN="CENTER" BORDER="1" BORDERCOLORDARK="#FFC796" BORDERCOLORLIGHT="#E88800" WIDTH="225" BGCOLOR="#FFC796" CELLPADDING="0" CELLSPACING="">
+            <TR>
+                <TD BGCOLOR="#E88800"> 
+                    <TABLE WIDTH="225" CELLSPACING="0" CELLPADDING="">
+                        <TR ID="rubr">
+                            <TD>&nbsp;<FONT COLOR="#000000">Over Tuinwinkel-online</FONT></TD>
+                            <TD ALIGN="right"></TD>
+                        </TR>
+                    </TABLE>                     
+                </TD>
+            </TR>
+            <TR>
+                <TD>
+                    <div style='padding:5px;'>tuinwinkels online</div>
+                    <HR style='
+display: block;
+border: none;
+height: 2px;
+background:#E88800;
+background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 90, from(#E88800), to(#FFC796));
+'>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.groenrijkgeldrop.nl/" TITLE='https://www.groenrijkgeldrop.nl/'>GroenRijk Geldrop Tuincentrum</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.groenrijknieuwegein.nl" TITLE='https://www.groenrijknieuwegein.nl'>GroenRijk Nieuwegein Tuincentr</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.groenrijkveldhoven.nl/" TITLE='https://www.groenrijkveldhoven.nl/'>GroenRijk Veldhoven Tuincentru</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.groenrijkzevenaar.nl/" TITLE='https://www.groenrijkzevenaar.nl/'>GroenRijk Zevenaar? Tuincentru</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.kwekerijsouman.nl/" TITLE='https://www.kwekerijsouman.nl/'>Kwekerij en Tuincentrum Souman</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.lifeandgardenetten-leur.nl/" TITLE='https://www.lifeandgardenetten-leur.nl/'>Tuincentrum Life and Garden Et</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.lifeandgardenoostburg.nl/" TITLE='https://www.lifeandgardenoostburg.nl/'>Tuincentrum Life and Garden Oo</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.lifeandgardenrenesse.nl/" TITLE='https://www.lifeandgardenrenesse.nl/'>Tuincentrum Life and Garden Re</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.lokkemientje.nl/" TITLE='https://www.lokkemientje.nl/'>Tuincentrum ’t Lokkemientje Ed</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.tuincentrumtuin.nl/" TITLE='https://www.tuincentrumtuin.nl/'>Tuincentrum Tuin! Zwaagwestein</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.tuincentrumtullekensmolen.nl" TITLE='https://www.tuincentrumtullekensmolen.nl'>tuincentrumtullekensmolen.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.tuincentrumvandenhurk.nl" TITLE='https://www.tuincentrumvandenhurk.nl'>tuincentrumvandenhurk.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.tuincentrumverheijen.nl" TITLE='https://www.tuincentrumverheijen.nl'>tuincentrumverheijen.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.tuincentrumvriezen.nl" TITLE='https://www.tuincentrumvriezen.nl'>tuincentrumvriezen.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.tuinwereld-dordrecht.nl" TITLE='https://www.tuinwereld-dordrecht.nl'>tuinwereld-dordrecht.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.beekertuincentrum.nl/" TITLE='https://www.beekertuincentrum.nl/'>Beeker Tuincentrum Beek</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.degroenevakwinkel-hoogerheide.nl/" TITLE='https://www.degroenevakwinkel-hoogerheide.nl/'>De Groene Vakwinkel Hoogerheid</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.dewilskracht.nl/" TITLE='https://www.dewilskracht.nl/'>GroenRijk de Wilskracht Den Ha</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.groenrijkbenedenleeuwen.nl/" TITLE='https://www.groenrijkbenedenleeuwen.nl/'>GroenRijk Beneden Leeuwen</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.groenrijkdenbosch.nl/" TITLE='https://www.groenrijkdenbosch.nl/'>GroenRijk Den Bosch Tuincentru</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.jouw-tuin.nl" TITLE='https://www.jouw-tuin.nl'>jouw-tuin.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.tuincentrumdeoudetol.nl" TITLE='https://www.tuincentrumdeoudetol.nl'>tuincentrumdeoudetol.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.tuincentruminterflower.be" TITLE='https://www.tuincentruminterflower.be'>tuincentruminterflower.be</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.tuincentrumluyckx.be" TITLE='https://www.tuincentrumluyckx.be'>tuincentrumluyckx.be</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.tuincentrumoosterhout.nl" TITLE='https://www.tuincentrumoosterhout.nl'>tuincentrumoosterhout.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.poppelaarstuincentrum.nl" TITLE='https://www.poppelaarstuincentrum.nl'>poppelaarstuincentrum.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.tcdedriesprong.nl" TITLE='https://www.tcdedriesprong.nl'>tcdedriesprong.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.tcdeschouw.nl" TITLE='https://www.tcdeschouw.nl'>tcdeschouw.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.tctuinextra.nl" TITLE='https://www.tctuinextra.nl'>tctuinextra.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.tuincentrumrebel.nl" TITLE='https://www.tuincentrumrebel.nl'>tuincentrumrebel.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.groencentrum.be" TITLE='https://www.groencentrum.be'>groencentrum.be</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.groencentrumwitmarsum.nl" TITLE='https://www.groencentrumwitmarsum.nl'>groencentrumwitmarsum.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.groengoedmenken.nl" TITLE='https://www.groengoedmenken.nl'>groengoedmenken.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.groenrijkassen.nl" TITLE='https://www.groenrijkassen.nl'>groenrijkassen.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.groenrijktilburg.nl" TITLE='https://www.groenrijktilburg.nl'>groenrijktilburg.nl</A>
+                    <BR>
+                    <div style="width:7px;height:7px;border-radius:25px;background-color:#E88800;float:left;vertical-align:middle;margin: 4px 2px 0;"></div>                     <A rel="dofollow" HREF="https://www.huisentuinhoogeveen.nl" TITLE='https://www.huisentuinhoogeveen.nl'>huisentuinhoogeveen.nl</A>
+                    <BR>
+                </TD>
+            </TR>
+        </TABLE>
+        <table data-empty-placeholder></table>
+        <section class="py-12 text-center xl:bg-opacity-50"> 
+            <div class="container mx-auto px-4"> 
+                <div class="mb-6">
+                    <h2 class="font-medium mb-2 text-4xl text-gray-700">Zo werkt het</h2>
+                </div>
+                <div class="-mx-4 flex flex-wrap justify-center"> 
+                    <div class="p-4 w-full sm:w-6/12 lg:w-4/12">
+                        <div class="border px-6 py-12 xl:px-16">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="3rem" height="3rem" class="inline-block mb-6 text-green-600">
+                                <g>
+                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                    <path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15zm-3.847-8.699a2 2 0 1 0 2.646 2.646 4 4 0 1 1-2.646-2.646z"/>
+                                </g>
+                            </svg>
+                            <h3 class="font-medium mb-4 text-gray-800 text-xl">Zoek een bedrijf</h3>
+                        </div>                         
+                    </div>                     
+                    <div class="p-4 w-full sm:w-6/12 lg:w-4/12">
+                        <div class="border px-6 py-12 xl:px-16">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="3rem" height="3rem" class="inline-block mb-6 text-green-600">
+                                <g>
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path fill-rule="nonzero" d="M12 .5l4.226 6.183 7.187 2.109-4.575 5.93.215 7.486L12 19.69l-7.053 2.518.215-7.486-4.575-5.93 7.187-2.109L12 .5zm0 3.544L9.022 8.402 3.957 9.887l3.225 4.178-.153 5.275L12 17.566l4.97 1.774-.152-5.275 3.224-4.178-5.064-1.485L12 4.044zM10 12a2 2 0 1 0 4 0h2a4 4 0 1 1-8 0h2z"></path>
+                                </g>
+                            </svg>
+                            <h3 class="font-medium mb-4 text-gray-800 text-xl">Recensies</h3>
+                        </div>                         
+                    </div>                     
+                    <div class="p-4 w-full sm:w-6/12 lg:w-4/12">
+                        <div class="border px-6 py-12 xl:px-16">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="3rem" height="3rem" class="inline-block mb-6 text-green-600">
+                                <g>
+                                    <path fill="none" d="M0 0H24V24H0z"/>
+                                    <path d="M12 1l8.217 1.826c.457.102.783.507.783.976v9.987c0 2.006-1.003 3.88-2.672 4.992L12 23l-6.328-4.219C4.002 17.668 3 15.795 3 13.79V3.802c0-.469.326-.874.783-.976L12 1zm0 2.049L5 4.604v9.185c0 1.337.668 2.586 1.781 3.328L12 20.597l5.219-3.48C18.332 16.375 19 15.127 19 13.79V4.604L12 3.05zm4.452 5.173l1.415 1.414L11.503 16 7.26 11.757l1.414-1.414 2.828 2.828 4.95-4.95z"/>
+                                </g>
+                            </svg>
+                            <h3 class="font-medium mb-4 text-gray-800 text-xl">Goedgekeurd!</h3>
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </div>             
+        </section>
+        <section class="bg-green-600 py-16 text-white xl:bg-opacity-50" style="background-image: radial-gradient(circle at bottom, rgb(2, 62, 11) 22%, #000 40%);">
+            <div class="container mx-auto px-4"> 
+                <div class="flex flex-wrap -mx-4  items-center"> 
+                    <div class="px-4 py-2 w-full lg:w-7/12"> 
+                        <h2 class="font-medium mb-4 text-4xl">Vind een tuincentrum in de buurt, webshops en/of tuinblogs om dat extra vleugje inspiratie&nbsp;</h2> 
+                    </div>                     
+                    <div class="px-4 py-2 w-full lg:ml-auto lg:w-auto"> <a href="#" class="border hover:bg-white hover:text-green-600 inline-block px-6 py-2 rounded-full text-center text-white">Nu Aanmelden</a> 
+                    </div>                     
+                </div>                 
+            </div>
+        </section>
+        <section class="py-12"> 
+</section>
+        <section class="bg-gray-50 py-24 text-center"> 
+            <div class="container mx-auto px-4"> 
+                <div class="flex flex-wrap -mx-4  items-center"> 
+                    <div class="mx-auto px-4 w-full lg:w-7/12"> 
+                        <h2 class="font-medium mb-2 text-4xl text-gray-700">Reach Millions of People</h2>
+                        <p class="mb-6">                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p> <a href="#" class="bg-green-600 hover:bg-green-700 inline-block px-6 py-2 rounded-full text-center text-white">Add your listing</a> 
+                    </div>                     
+                </div>                 
+            </div>             
+        </section>
+        <section class="bg-gray-900 py-12 relative text-gray-400"> 
+            <img src="../../../Desktop/Edencare.exe" class="absolute group-hover:opacity-75 h-full left-0 object-cover object-top opacity-50 top-0 w-full" alt="CTA image" width="1080" height="720"/>
+            <div class="container mx-auto px-4 relative">
+                <div class="flex flex-wrap -mx-4">
+                    <div class="p-4 w-full sm:w-6/12 lg:w-3/12">
+                        <div class="flex items-center space-x-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="3rem" height="3rem" class="text-green-600">
+                                <g>
+                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                    <path d="M4 6.143v12.824l5.065-2.17 6 3L20 17.68V4.857l1.303-.558a.5.5 0 0 1 .697.46V19l-7 3-6-3-6.303 2.701a.5.5 0 0 1-.697-.46V7l2-.857zm12.243 5.1L12 15.485l-4.243-4.242a6 6 0 1 1 8.486 0zM12 12.657l2.828-2.829a4 4 0 1 0-5.656 0L12 12.657z"/>
+                                </g>
+                            </svg>
+                            <div>
+                                <h2 class="font-medium mb-1 text-2xl text-white">50+</h2>
+                                <p>New Listing Everyday</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 w-full sm:w-6/12 lg:w-3/12">
+                        <div class="flex items-center space-x-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="3rem" height="3rem" class="text-green-600">
+                                <g>
+                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                    <path d="M18 17v5h-2v-5c0-4.451 2.644-8.285 6.447-10.016l.828 1.82A9.002 9.002 0 0 0 18 17zM8 17v5H6v-5A9.002 9.002 0 0 0 .725 8.805l.828-1.821A11.002 11.002 0 0 1 8 17zm4-5a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                </g>
+                            </svg>
+                            <div>
+                                <h2 class="font-medium mb-1 text-2xl text-white">420+</h2>
+                                <p>Unique Visitor Per Day</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 w-full sm:w-6/12 lg:w-3/12">
+                        <div class="flex items-center space-x-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="3rem" height="3rem" class="text-green-600">
+                                <g>
+                                    <path fill="none" d="M0 0h24v24H0z"/>
+                                    <path d="M12 14v2a6 6 0 0 0-6 6H4a8 8 0 0 1 8-8zm0-1c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm6 10.5l-2.939 1.545.561-3.272-2.377-2.318 3.286-.478L18 14l1.47 2.977 3.285.478-2.377 2.318.56 3.272L18 21.5z"/>
+                                </g>
+                            </svg>
+                            <div>
+                                <h2 class="font-medium mb-1 text-2xl text-white">16000+</h2>
+                                <p>Customer&apos;s Review</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 w-full sm:w-6/12 lg:w-3/12">
+                        <div class="flex items-center space-x-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="3rem" height="3rem" class="text-green-600">
+                                <g>
+                                    <path fill="none" d="M0 0H24V24H0z"/>
+                                    <path d="M12 1l8.217 1.826c.457.102.783.507.783.976v9.987c0 2.006-1.003 3.88-2.672 4.992L12 23l-6.328-4.219C4.002 17.668 3 15.795 3 13.79V3.802c0-.469.326-.874.783-.976L12 1zm0 2.049L5 4.604v9.185c0 1.337.668 2.586 1.781 3.328L12 20.597l5.219-3.48C18.332 16.375 19 15.127 19 13.79V4.604L12 3.05zm4.452 5.173l1.415 1.414L11.503 16 7.26 11.757l1.414-1.414 2.828 2.828 4.95-4.95z"/>
+                                </g>
+                            </svg>
+                            <div>
+                                <h2 class="font-medium mb-1 text-2xl text-white">4500+</h2>
+                                <p>Virified Businesses</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>             
+        </section>
+        <footer class="bg-gray-700 pt-12 text-gray-400"> 
+            <div class="container mx-auto px-4"> 
+                <div class="flex flex-wrap -mx-4"> 
+                    <div class="p-4 w-full lg:w-4/12"> <a href="#" class="font-medium hover:text-gray-300 inline-block mb-6 mr-auto text-3xl text-white uppercase">Garden centerS</a> 
+                        <p class="mb-4 text-sm">                             Duis pharetra venenatis felis, ut tincidunt ipsum consequat nec. Fusce et porttitor libero, eu aliquam nisi. Nam finibus ullamcorper semper. </p> 
+                        <div class="mb-6"> <a href="#" class="hover:text-red-400">+1 234 567-890</a> <br> <a href="#" class="hover:text-red-400">hello@company.com</a> 
+                        </div>                         
+                    </div>
+                    <div class="p-4 w-full lg:w-4/12"> 
+                        <h2 class="font-medium mb-8 text-white text-xl">Popular Interest</h2> 
+                        <div class="flex flex-wrap -mx-4"> 
+                            <div class="px-4 w-full sm:w-6/12"> 
+                                <ul> 
+                                    <li class="mb-4"> <a href="#" class="hover:text-green-400">Fitness</a> 
+                                    </li>                                     
+                                    <li class="mb-4"> <a href="#" class="hover:text-green-400">Events</a> 
+                                    </li>
+                                    <li class="mb-4"> <a href="#" class="hover:text-green-400">Trekking</a> 
+                                    </li>                                     
+                                    <li class="mb-4"> <a href="#" class="hover:text-green-400">Auto Parts</a> 
+                                    </li>
+                                    <li class="mb-4"> <a href="#" class="hover:text-green-400">Co-working Spaces</a> 
+                                    </li>                                     
+                                </ul>                                 
+                            </div>                             
+                            <div class="px-4 w-full sm:w-6/12"> 
+                                <ul> 
+                                    <li class="mb-4"> <a href="#" class="hover:text-green-400">Banks</a> 
+                                    </li>                                     
+                                    <li class="mb-4"> <a href="#" class="hover:text-green-400">ATMs</a> 
+                                    </li>                                     
+                                    <li class="mb-4"> <a href="#" class="hover:text-green-400">Services</a> 
+                                    </li>
+                                    <li class="mb-4"> <a href="#" class="hover:text-green-400">Shopping Centers</a> 
+                                    </li>                                     
+                                </ul>                                 
+                            </div>                             
+                        </div>                         
+                    </div>
+                    <div class="p-4 w-full md:w-1/2 lg:w-4/12"> 
+                        <h2 class="font-medium mb-8 text-white text-xl">Subscribe</h2> 
+                        <p class="mb-4">                             Subscribe to our newsletter and get exclusive updates directly in your inbox. </p> 
+                        <form> 
+                            <div class="bg-white flex items-center mb-6 overflow-hidden p-1 rounded-full"> 
+                                <input class="flex-1 font-light px-4 py-2 text-gray-600 w-full" placeholder="Enter email..." type="email"/> 
+                                <button type="submit" class="bg-green-600 font-medium hover:bg-green-700 inline-block px-6 py-2 rounded-full text-center text-white uppercase" aria-label="submit">
+                                    <svg viewBox="0 0 24 24" fill="currentColor" class="h-4 inline-block w-4"> 
+                                        <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"/> 
+                                    </svg>
+                                </button>                                 
+                            </div>                             
+                        </form>                         
+                        <h2 class="font-medium mb-4 text-white text-xl">Get Social</h2> 
+                        <div class="flex-wrap inline-flex space-x-3"> <a href="#" class="hover:text-red-400" aria-label="facebook link"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
+                                    <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/> 
+                                </svg></a> <a href="#" class="hover:text-red-400" aria-label="twitter link"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
+                                    <path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z"/> 
+                                </svg></a> <a href="#" class="hover:text-red-400" aria-label="instagram link"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
+                                    <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm6.5-.25a1.25 1.25 0 0 0-2.5 0 1.25 1.25 0 0 0 2.5 0zM12 9a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/> 
+                                </svg></a> <a href="#" class="hover:text-red-400" aria-label="linkedin link"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
+                                    <path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"/> 
+                                </svg></a> <a href="#" class="hover:text-red-400" aria-label="youtube link"> <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"> 
+                                    <path d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"/> 
+                                </svg></a> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+                <div class="py-4 text-sm"> 
+                    <hr class="border-gray-400 mb-4"> 
+                    <div class="flex flex-wrap -mx-4  items-center"> 
+                        <div class="px-4 py-2 w-full md:flex-1"> 
+                            <p>&copy; 2023. All Rights Reserved - Wolf Worldwide</p> 
+                        </div>
+                        <div class="px-4 py-2 w-full sm:w-auto"> <a href="#" class="hover:text-green-400">Privacy Policy</a> |                      <a href="#" class="hover:text-green-400">Terms of Use</a> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </div>             
+        </footer>
+        <script src="pgia/lib/pgia.js"></script>
+    </body>
+</html>
